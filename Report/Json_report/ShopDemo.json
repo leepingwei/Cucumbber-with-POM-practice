@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Choose an product and add to shopping cart",
+        "description": "",
+        "id": "add-product-to-shopping-cart;choose-an-product-and-add-to-shopping-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to shopdemo website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User add one product to shopping cart",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User click on continue shopping button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User click on shopping cart link",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify if the item been displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User quit the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add product to shopping cart",
+    "description": "",
+    "id": "add-product-to-shopping-cart",
+    "keyword": "Feature",
+    "uri": "AddProductToShoppingCart.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Contact us function test",
+        "description": "",
+        "id": "contact-us-function;contact-us-function-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to shopdemo website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User click on contact us link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User fill up the form and submit with \"Kevin\" \"kevin@test.com\" \"Banana\" \"Let\u0027s go get banana\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User quit the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Contact us function test",
+        "description": "",
+        "id": "contact-us-function;contact-us-function-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to shopdemo website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User click on contact us link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User fill up the form and submit with \"Stuart\" \"stuart@test.com\" \"Unicorn\" \"Making an unicorn for Agnes\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User quit the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Contact us function test",
+        "description": "",
+        "id": "contact-us-function;contact-us-function-test;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to shopdemo website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User click on contact us link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User fill up the form and submit with \"Bob\" \"bob@test.com\" \"Ice cream Truck\" \"Buying ice cream from ice cream truck\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User quit the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact us function",
+    "description": "",
+    "id": "contact-us-function",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Click on Share button to share to Facebook",
+        "description": "",
+        "id": "share-to-facebook;click-on-share-button-to-share-to-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Navigate to shopdemo website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User click on Share button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Verify Login message on the pop up window",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User quit the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Share To Facebook",
+    "description": "",
+    "id": "share-to-facebook",
+    "keyword": "Feature",
+    "uri": "ShareToFacebook.feature"
+  }
+]

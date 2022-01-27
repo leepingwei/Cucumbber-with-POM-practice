@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="5" time="0">
+<testcase classname="Add product to shopping cart" name="Choose an product and add to shopping cart" time="0">
+<skipped><![CDATA[Given Navigate to shopdemo website..........................................undefined
+When User add one product to shopping cart..................................undefined
+Then User click on continue shopping button.................................undefined
+Then User click on shopping cart link.......................................undefined
+Then Verify if the item been displayed......................................undefined
+Then User quit the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Contact us function" name="Contact us function test" time="0">
+<skipped><![CDATA[Given Navigate to shopdemo website..........................................undefined
+When User click on contact us link..........................................undefined
+Then User fill up the form and submit with "Kevin" "kevin@test.com" "Banana" "Let's go get banana".undefined
+Then User quit the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Contact us function" name="Contact us function test 2" time="0">
+<skipped><![CDATA[Given Navigate to shopdemo website..........................................undefined
+When User click on contact us link..........................................undefined
+Then User fill up the form and submit with "Stuart" "stuart@test.com" "Unicorn" "Making an unicorn for Agnes".undefined
+Then User quit the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Contact us function" name="Contact us function test 3" time="0">
+<skipped><![CDATA[Given Navigate to shopdemo website..........................................undefined
+When User click on contact us link..........................................undefined
+Then User fill up the form and submit with "Bob" "bob@test.com" "Ice cream Truck" "Buying ice cream from ice cream truck".undefined
+Then User quit the browser..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Share To Facebook" name="Click on Share button to share to Facebook" time="0">
+<skipped><![CDATA[Given Navigate to shopdemo website..........................................undefined
+When User click on Share button.............................................undefined
+Then Verify Login message on the pop up window..............................undefined
+Then User quit the browser..................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
